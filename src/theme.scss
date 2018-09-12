@@ -1,0 +1,10 @@
+@import "theme_variables.scss";
+// original:  @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "bootstrap.scss";
+// ewemtualnie inne biblioteki
+
+// specyficzne dla tematu
+h1, h2, h3 {
+  color : green;
+}
