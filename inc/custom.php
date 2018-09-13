@@ -50,3 +50,7 @@ if (!function_exists('my_theme_customize_register')) {
   }
 } // endif function_exists( 'my_theme_customize_register' ).
 add_action('customize_register', 'my_theme_customize_register');
+
+////////////////// logo
+
+add_theme_support( 'custom-logo' );
